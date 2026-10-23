@@ -1,6 +1,6 @@
 pipeline {
    
-    }
+    agent any
 
     stages {
         stage('webhooks test') {
@@ -9,3 +9,4 @@ pipeline {
             }
         }
     }
+}
